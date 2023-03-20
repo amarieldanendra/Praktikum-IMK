@@ -1,0 +1,481 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678641064860234, "dur": 4558412, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641064860590, "dur": 3333, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641064863926, "dur": 62320, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641064926250, "dur": 1038214, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641065964466, "dur": 3441942, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641069406410, "dur": 12235, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641069419779, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1678641065711886, "dur": 223938, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065713384, "dur": 64010, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065909051, "dur": 8608, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065917665, "dur": 18140, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065919041, "dur": 15261, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065943694, "dur": 2864, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678641065942354, "dur": 4250, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641069420025, "dur": 741, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678641066052862, "dur":4023, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641066056892, "dur":84, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678641066057016, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678641066057040, "dur":531, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678641066057664, "dur":1381, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641066059045, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069374920, "dur":36, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069374956, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069374981, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069374986, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375008, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375011, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375023, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375026, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375040, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375074, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069375138, "dur":3721, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678641066058364, "dur":694, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066059065, "dur":11345, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066070427, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678641066070439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066073544, "dur":891, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678641066074442, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678641066074551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066075074, "dur":8370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678641066083448, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678641066083671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066084105, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678641066087730, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066087933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066087945, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066090657, "dur":12836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678641066103500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066103514, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678641066106168, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066106406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066106420, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066109832, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1678641066110057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066123316, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1678641066127109, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678641066127375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066127543, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678641066131480, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066131943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066131963, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678641066135668, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678641066135906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066135920, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678641066138805, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1678641066139026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066139039, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1678641066143035, "dur":3768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066146812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066147639, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066150495, "dur":6174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1678641066156678, "dur":140, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066156831, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1678641066161761, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678641066162020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066163074, "dur":12482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678641066175651, "dur":95955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066271616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066271632, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066274724, "dur":58900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066333629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066333642, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066337093, "dur":166572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066503673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066503798, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066506380, "dur":21109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066527497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066527513, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066531253, "dur":44131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066575391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066575406, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066578177, "dur":194802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066772986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066773001, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066777296, "dur":158009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066935313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066935328, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066938375, "dur":38183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066976610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641066976625, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641066979092, "dur":59930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067039029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067039045, "dur":14901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067054033, "dur":84087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067138128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067138143, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067140647, "dur":228359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067369012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067369027, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067373609, "dur":80828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067454445, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067454460, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067457301, "dur":48384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067505692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067505708, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067508517, "dur":81170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067589695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067589710, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067592384, "dur":122520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067714912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067714929, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067717633, "dur":175499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067893139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641067893154, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641067895614, "dur":236092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068131714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068131731, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068134724, "dur":302974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068437706, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068437722, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068441304, "dur":367712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068809024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068809039, "dur":5961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068815136, "dur":76240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068891382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068891395, "dur":17008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068908488, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068910029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068910044, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678641068913654, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678641068913756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068913860, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678641068917160, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068917249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068917262, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068919443, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068919527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068919538, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068923055, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068923139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068923151, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068925441, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068925524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068925536, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068928907, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068928994, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068929012, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068932925, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1678641068933205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068933216, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1678641068935198, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1678641068936413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068936427, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1678641068938948, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068939038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068939051, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068941566, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068941656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068941667, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641068943843, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068943933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068943944, "dur":43243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068987296, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1678641068987391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068987403, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1678641068990317, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068990417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068990428, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068993107, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1678641068993193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068993204, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1678641068995481, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068995566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068995579, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678641068998174, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1678641068998258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641068998270, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1678641069001097, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641069001190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641069001202, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678641069003913, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1678641069004012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641069004072, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1678641069007022, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678641069007339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678641069007351, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678641069009818, "dur":365018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066058460, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066059067, "dur":11857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066070925, "dur":16713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066087643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066087675, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066090478, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678641066090697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066091864, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678641066095082, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678641066095283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066095423, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678641066098433, "dur":11208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066109648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066109664, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066112129, "dur":28468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066140605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066140623, "dur":7553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678641066148286, "dur":724738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641066873031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066873043, "dur":60694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641066933837, "dur":58069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641066991915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641066991932, "dur":6466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641066998496, "dur":26222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067024723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067024782, "dur":16034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067040908, "dur":70861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067111777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067111792, "dur":8846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067120738, "dur":50075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067170821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067170836, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067173332, "dur":24787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067198128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067198144, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067204482, "dur":100724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067305216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067305233, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067308344, "dur":22896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067331248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067331263, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067334032, "dur":31383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067365422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067365438, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067368314, "dur":26131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067394452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067394467, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067399508, "dur":24059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067423576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067423594, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067426384, "dur":62969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067489406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067489423, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067492239, "dur":49320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067541566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067541582, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067543881, "dur":139872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067683761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641067683777, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641067686575, "dur":558639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068245221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641068245236, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068248547, "dur":62812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068311367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641068311383, "dur":5909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068317383, "dur":384154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068701544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641068701559, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068704764, "dur":179926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068884697, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641068884713, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641068887120, "dur":480993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641069368119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678641069368132, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678641069374729, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1678641069374735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066058537, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066059078, "dur":11515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066070596, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678641066070906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066076739, "dur":10658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678641066087500, "dur":39434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678641066126985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066127001, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678641066129760, "dur":12431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678641066142200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066142217, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678641066145141, "dur":39344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066184493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066184646, "dur":11001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066195749, "dur":25984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066221741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066222514, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066224938, "dur":31947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066256892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066257094, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066259565, "dur":70740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066330313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066330328, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066333291, "dur":51102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066384401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066384416, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066386790, "dur":35953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066422795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066422811, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066425578, "dur":23748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066449334, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066449385, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066452243, "dur":87832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066540083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066540098, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066542695, "dur":74369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066617072, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066617089, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066619447, "dur":38909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066658364, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066658386, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066661175, "dur":70137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066731320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066731339, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066734585, "dur":65093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066799685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066799701, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066802210, "dur":91067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066893286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066893302, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066896864, "dur":60309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066957182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066957196, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066960153, "dur":32510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641066992670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641066992683, "dur":22704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067015541, "dur":24228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067039777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067039791, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067043364, "dur":22128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067065500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067065515, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067068106, "dur":51484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067119598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067119646, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067122136, "dur":26159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067148303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067148318, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067152874, "dur":22391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067175273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067175328, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067178332, "dur":48782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067227122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067227137, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067229753, "dur":27863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067257624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067257639, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067260108, "dur":46930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067307045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067307060, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067315000, "dur":229961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067544968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067544984, "dur":9496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067554570, "dur":250376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067804954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067804983, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067808513, "dur":86311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067894834, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641067894853, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641067898637, "dur":263741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068162386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641068162402, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068167071, "dur":127272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068294392, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641068294409, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068297687, "dur":51577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068349272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641068349286, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068351622, "dur":409746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068761375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641068761391, "dur":9807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641068771294, "dur":289135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641069060436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678641069060450, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678641069064464, "dur":310319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066058596, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066059088, "dur":11487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066070580, "dur":78693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678641066149281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066150192, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678641066152679, "dur":90373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1.exe" }}
+,{ "pid":12345, "tid":4, "ts":1678641066243059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066243071, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1.exe" }}
+,{ "pid":12345, "tid":4, "ts":1678641066246650, "dur":57655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066304314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066304330, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066306667, "dur":25935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066332649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066332667, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066334989, "dur":35609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066370608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066370622, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066373562, "dur":33499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066407070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066407085, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066409560, "dur":22890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066432458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066432476, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066435306, "dur":22094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066457408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066457423, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066460053, "dur":24943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066485004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066485076, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066487712, "dur":111007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066598727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066598743, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066601119, "dur":255237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066856362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066856377, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066859309, "dur":23441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066882797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066882812, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066885703, "dur":74375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066960083, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066960106, "dur":6705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066966910, "dur":26909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066993827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641066993842, "dur":5959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641066999918, "dur":22080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067022006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067022022, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067024595, "dur":53141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067077744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067077759, "dur":15505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067093364, "dur":29466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067122837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067122853, "dur":4067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067127018, "dur":56042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067183068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067183084, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067185751, "dur":63666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067249425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067249441, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067251816, "dur":97947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067349772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067349788, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067352503, "dur":28796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067381306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067381321, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067383978, "dur":43601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067427588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067427605, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067432257, "dur":195434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067627699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067627714, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067631211, "dur":134978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067766197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641067766212, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641067768712, "dur":388350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068157069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641068157085, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068163652, "dur":126955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068290615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641068290630, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068293428, "dur":206940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068500376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641068500392, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068503513, "dur":57465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068560985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641068561000, "dur":5051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068566147, "dur":324430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068890584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641068890599, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641068894353, "dur":350717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641069245077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678641069245092, "dur":4768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/monto/OneDrive/Documents/Projects/Games/IMK Ola Build/IMK Ola 1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678641069249974, "dur":124793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678641069384067, "dur":3971, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678641069420909, "dur": 1523, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678641069419762, "dur": 2722, "ph": "X", "name": "Write chrome-trace events", "args": {} },
